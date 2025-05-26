@@ -17,6 +17,11 @@ const config: HardhatUserConfig = {
     }
   },
   networks: {
+    iitbh: {
+      url: process.env.NEXT_PUBLIC_RPC_URL || "http://10.10.8.190:800",
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+      chainId: 491002,
+    },
     bnbTestnet: {
       url: process.env.NEXT_PUBLIC_RPC_URL || "https://data-seed-prebsc-1-s1.binance.org:8545/",
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],

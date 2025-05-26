@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "hardhat:deploy": "npx hardhat run scripts/deploy.ts --network bnbTestnet --tsconfig tsconfig.hardhat.json",
+    "hardhat:deploy": "npx hardhat run scripts/deploy.ts --network iitbh --tsconfig tsconfig.hardhat.json",
     "hardhat:compile": "npx hardhat compile --tsconfig tsconfig.hardhat.json"
   },
   "dependencies": {
