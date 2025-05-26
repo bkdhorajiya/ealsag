@@ -2,7 +2,7 @@
 import { ethers } from 'ethers';
 import { ELECTION_CONFIG } from "@/config/election";
  
-export const VOTING_CONTRACT_ADDRESS = "0xFC8666958c6Cd63eb4Fb61c62eA05f883f44A88D";
+export const VOTING_CONTRACT_ADDRESS = "0xF53052b20c01A4862422D2CE6251b8Bc8d067F32";
 export const VOTING_CONTRACT_ABI = [
   {
     "inputs": [
