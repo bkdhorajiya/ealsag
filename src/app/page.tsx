@@ -1,4 +1,5 @@
 // src/app/page.tsx
+// Minor comment added to trigger redeploy
 
 "use client"
 import Image from 'next/image';
